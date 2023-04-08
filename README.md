@@ -17,4 +17,10 @@
 
 # Strategy design pattern
 * In order to understand what a Let us first deep dive into the basics first. IS-A relationship means inheritence wheras HAS-A relationship means composition.
-* Now Let us try to understand why do we need the strategy pattern in the first place. Let us consider a Duck Super class which has 3 child classes namely Mountain duck,cloud duck and rubber duck.There may be a method named fly
+* Now Let us try to understand why do we need the strategy pattern in the first place. Let us consider a Duck Super class which has 3 child classes namely Mountain duck,cloud duck and rubber duck.There may be a method named fly which is implemented by the mountain duck in one way wheras it may be implemented by the rubber duck in another way.In that case do we have to create another class called fly behaviour1? and fly behaviour2? This will be an overhead and can cause problems.That is when strategy pattern comes into use. 
+* In order to tackle the above situation we try to use a HAS-A relationship instead of a IS-A relationship more because if we create an interface and create abstract methods using this interface for separate flying behaviours then it will be much simpler to implement the fly behaiours.
+* The Class diagram for this is as follows:
+![Screenshot 2023-04-07 at 6 55 30 PM](https://user-images.githubusercontent.com/22400467/230698844-76a58d2a-8d7c-4eb8-a814-d50772b158e6.png)
+
+
+
