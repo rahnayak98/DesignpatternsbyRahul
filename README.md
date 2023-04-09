@@ -24,5 +24,7 @@
 
 # Observer pattern
 * Let us first try to understand where observer pattern is used. There may be 2 classes 1 maybe a weather service which periodically changes its values wheras other services which constantly polls this weather service whenever there is a change.So the weather service can be called as an obervable wheras the other classes/service that observe this service are observers.
+* The class diagram looks as follows
+<img width="414" alt="Screenshot 2023-04-08 at 7 32 30 PM" src="https://user-images.githubusercontent.com/22400467/230751114-a290565e-7edc-4138-a733-da0c223b5a91.png">
 
 
