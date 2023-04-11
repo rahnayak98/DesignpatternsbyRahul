@@ -30,3 +30,6 @@
 # Decorator Pattern
 * The decorator pattern is used to change the contents of a class at Run time instraed of at compile time. Meaning if you want to change the contents of a class we can do it run time instead of us actaully change the contents.
 * Suppose you. want to make a Coffee app where the customers are allowed to make their own variety of Coffee beans in such a case combining various ingredients can be a little bit complex as in creating a class fora each of its combination will create a overhead by creating classes this is not vaible. This is when the decorator pattern comes into picture
+* A much clearer class diagram is as below:
+![Screenshot 2023-04-10 at 7 35 45 PM](https://user-images.githubusercontent.com/22400467/231041108-9b34cc9e-bbc6-48e1-ad22-f509191876a7.png)
+
