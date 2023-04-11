@@ -27,4 +27,5 @@
 * The class diagram looks as follows
 <img width="414" alt="Screenshot 2023-04-08 at 7 32 30 PM" src="https://user-images.githubusercontent.com/22400467/230751114-a290565e-7edc-4138-a733-da0c223b5a91.png">
 
-
+# Decorator Pattern
+* The decorator pattern is used to change the contents of a class at Run time instraed of at compile time. Meaning if you want to change the contents of a class we can do it run time instead of us actaully change the contents.
