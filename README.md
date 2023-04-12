@@ -33,3 +33,6 @@
 * A much clearer class diagram is as below:
 ![Screenshot 2023-04-10 at 7 35 45 PM](https://user-images.githubusercontent.com/22400467/231041108-9b34cc9e-bbc6-48e1-ad22-f509191876a7.png)
 
+#Factory pattern
+* It mainly deals with creation of a factory that is responsible for creating a instance of an object in the way we want
+* 
